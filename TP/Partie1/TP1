@@ -1,0 +1,56 @@
+################## EX 1 ##################
+
+Q1
+java.lang composé de :
+(c'est une interface), de classes, des enumérations, des exceptions, des erreurs, des annotations
+
+
+Q3
+Comment savoir à quoi sert le package java.io ?
+
+Dans le paquetage java.lang, à quoi sert la classe System ?
+
+
+Q4
+Pourquoi le mot System a-t-il une majuscule ?
+
+car c'est une classe
+
+Que représente le mot out ? De quel type est-ce ?
+
+attribut de la classe System, appartient a la classe System, de type PrintStream
+
+Que représente le mot println ?
+
+notation pour écrire print
+
+
+Q5
+Que représente le mot Scanner ?
+
+majuscule donc c'est une classe
+
+Comment trouver rapidement les informations sur cette classe dans la documentation en ligne ?
+
+chercher dans barre de recherche
+
+in est-elle une variable de classe ou d’instance ? De quel type est cette variable ?
+
+attribut, appartient a classe (on appele direct sur la classe -> System.in)
+
+################## EX 2 ##################
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
