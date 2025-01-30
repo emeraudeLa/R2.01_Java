@@ -8,7 +8,7 @@ public class Saisie {
         Double d=Double.valueOf(tmp);
         return d.doubleValue();
     }
-    public static double reelf(Scanner scan){
+    public static float reelf(Scanner scan){
         String tmp = scan.next();
         Float f = Float.valueOf(tmp);
         return f.floatValue();
