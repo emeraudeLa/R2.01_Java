@@ -1,2 +1,17 @@
 # R2.01_Java
+
 Initiation au Java, BUT Info Lannion 1ère année
+
+## Description
+
+Ce dépôt contient une série d'exercices réalisés dans le cadre du cours de Java à l'IUT de Lannion au deuxième semestre.
+Il y a des exercices fait en TD et en TP.
+
+## Contenu
+**TP**
+- **TP 1 :** Environnement Java, utilisation de quelques classes
+- **TP 2 :** Création de classes
+
+**TD**
+- **TD 1 :** Utilisation de classes et méthodes prédéfinies
+- **TD 2 :** Création de classes
