@@ -22,5 +22,13 @@ public class Pile{
         }else{
             indice--1;
         }
+    public Produit sommet(){
+        if(pileVide()){
+            System.out.println("La pile est vide, il n'y a pas de produit au sommet.")
+            return null;
+        }else{
+            return produits[indice];
+        }
+    }
     }
     }
