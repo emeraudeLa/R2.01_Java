@@ -12,18 +12,25 @@ public class Date {
     }
 
     public void entreeDate(Scanner entree){
-        String d;
-        String j;
-        String a;
         System.out.println("Jour :");
-        d=entree.next();
-        jour=Integer.parseInt(d);
+        jour=entree.nextInt();
         System.out.println("Mois :");
-        j=entree.next();
-        mois=Integer.parseInt(j);
+        mois=entree.nextInt();
         System.out.println("Annee :");
-        a=entree.next();
-        annee=Integer.parseInt(a);
+        annee=entree.nextInt();
+
+    }
+
+    public int getJour() {
+        return jour;
+    }
+
+    public int getMois() {
+        return mois;
+    }
+
+    public int getAnnee() {
+        return annee;
     }
 
     public void afficher(){
@@ -37,6 +44,15 @@ public class Date {
         today.entreeDate(entree);
         today.afficher();
         entree.close();//ferme le scanner
+    }
+
+    public boolean equals(Date d){
+        if((d.getJour() == jour) && (d.getMois() == mois) && (d.getAnnee() == annee)){
+            return true;
+        }
+        else{
+            return false;
+        }
     }
 
 }
