@@ -31,5 +31,12 @@ public class Voiture {
         System.out.println(listeVoitures.get(0)+"\n"+listeVoitures.get(1));
         listeVoitures.remove(0);
         System.out.println("Table apres del : "+listeVoitures.get(0));
+
+        /*//version iterative
+        Iterator<Voiture> it = mesVoit.iterator();
+        while(it.hasNext()){
+            mv = it.next();
+            mv.affiche();
+        }*/
     }
 }
