@@ -1,3 +1,5 @@
+import java.util.*;
+
 abstract class Employe {
     protected String nom;
     protected int age;
@@ -13,4 +15,18 @@ abstract class Employe {
         this.idd=count;
         count++;
     }
+
+    public abstract double salaire();
+
+    public abstract String categorie();
+
+    public String toString(){
+        return this.categorie();
+    }
+
+    public void affiche (){
+        System.out.println(this.toString());
+    }
+
+
 }
