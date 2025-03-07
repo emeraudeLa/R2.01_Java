@@ -1,4 +1,4 @@
-package TP4.exercice1;
+//package TP4.exercice1;
 
 public abstract class FormeGeometrique {
 
